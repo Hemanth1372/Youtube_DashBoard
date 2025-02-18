@@ -1,0 +1,61 @@
+.db,
+.cnt,
+.analy,
+.commu,
+.subtitle,
+.copy,
+.dollar,
+.audio,
+.setting,
+.feed{
+  width: 100%;
+  padding-left: 20px;
+  margin-left: -20px;
+  padding-bottom: 5px;
+  cursor: pointer;
+  transition: background-color 0.1s;
+}
+
+.db:hover{
+  background-color: rgb(209, 209, 209);
+}
+
+.db{
+  background-color: rgb(209, 209, 209);
+}
+
+.cnt:hover{
+  background-color: rgb(209, 209, 209);
+}
+
+.analy:hover{
+  background-color: rgb(209, 209, 209);
+}
+
+.commu:hover{
+  background-color: rgb(209, 209, 209);
+}
+
+.subtitle:hover{
+  background-color: rgb(209, 209, 209);
+}
+
+.copy:hover{
+  background-color: rgb(209, 209, 209);
+}
+
+.dollar:hover{
+  background-color: rgb(209, 209, 209);
+}
+
+.audio:hover{
+  background-color: rgb(209, 209, 209);
+}
+
+.setting:hover{
+  background-color: rgb(209, 209, 209);
+}
+
+.feed:hover{
+  background-color: rgb(209, 209, 209);
+}

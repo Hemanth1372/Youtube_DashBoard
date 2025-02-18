@@ -1,0 +1,442 @@
+body{
+  font-weight: Roboto,Arial;
+  margin: 0px;
+  background-color: gray;
+  background: rgba(0, 0, 0, 0.4);
+  backface-visibility: visible;
+}
+
+.container{
+  width: 1200px;
+  height: 650px;
+  margin-left: 150px;
+  margin-top: 60px;
+  border-radius: 30px;
+  display: block;
+  background-color: white;
+}
+
+.first-header{
+  width: 1200px;
+  height: 60px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-part{
+  width: 300px;
+  border-radius: 30px;
+  margin-left: 10px;
+}
+
+.title{
+  margin-top: 15px;
+  margin-left: 15px;
+  font-family: 'YouTube Sans', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.right-part{
+  width: 200px;
+  border-radius: 30px;
+}
+
+.mode{
+  margin-top: 13px;
+  margin-left: 35px;
+  width: 130px;
+  height: 35px;
+  font-family: "Roboto", serif;
+  font-weight: bold;
+  font-size: 14px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.mode:hover{
+  opacity: 0.7;
+}
+
+.mode:active{
+  transform: scale(0.98);
+  transition-duration: 0.01s;
+}
+
+
+.second-header{
+  margin-top: -10px;
+  width: 1200px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.options{
+  width: 800px;
+  display: flex;
+}
+
+.over,
+.content,
+.audi,
+.trends{
+  font-family: 'YouTube Sans', sans-serif;
+  font-size: 18px;
+  margin-left: 20px;
+  margin-right: 20px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.overview{
+  height: 58px;
+  padding-top: 0px;
+  background-color: rgb(241, 241, 241);
+  border-top-right-radius: 8px;
+}
+
+.over{
+  margin-top: 15px;
+}
+
+.content:hover{
+  opacity: 0.5;
+}
+
+.audience:hover{
+  opacity: 0.5;
+}
+
+.tr:hover{
+  opacity: 0.5;
+}
+
+.time-line{
+  width: 250px;
+  display: flex;
+}
+
+.times{
+  display: block;
+}
+
+.date_time{
+  width: 150px;
+  margin-top: 10px;
+  font-family: 'YouTube Sans', sans-serif;
+  letter-spacing: 1px;
+  font-size: 13px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+}
+
+.last_date{
+  width: 100px;
+  margin-top: 2px;
+  font-family: 'YouTube Sans', sans-serif;
+  letter-spacing: 1px;
+  font-size: 16px;
+}
+
+.arrow{
+  width: 100px;
+  margin-left: 50px;
+}
+
+.down-arrow{
+  height: 25px;
+  display: inline-block;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 15px;
+  transition: background-color 0.15s;
+}
+
+.down-arrow:hover{
+  background-color: rgb(209, 209, 209);
+}
+
+.main-part{
+  width: 1200px;
+  height: 530px;
+  display: flex;
+}
+
+.main-left-part{
+  width: 800px;
+  height: 530px;
+}
+
+.title_{
+  margin-top: 15px;
+  margin-left: 130px;
+  padding-top: 10px;
+  font-family: 'YouTube Sans', sans-serif;
+  font-size: 27px;
+}
+
+.stats{
+  width: 850px;
+  height: 370px;
+  margin-top: 50px;
+  margin-left: 20px;
+  border-width: 0.1px;
+  border-style: solid;
+  border-radius: 20px;
+  border-color: rgb(179, 176, 176);
+}
+
+.heads{
+  width: 800px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-bottom-width: 0.1px;
+  border-bottom-style: solid;
+}
+
+.first-head{
+  margin-left: -50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 100px;
+  background-color: rgb(241, 241, 241);
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  cursor: pointer;
+}
+
+.second-head,
+.third-head{
+  cursor: pointer;
+}
+
+.first-head-name,
+.second-head-name,
+.third-head-name{
+  font-family: 'YouTube Sans', sans-serif;
+  font-size: 17px;
+}
+
+.first-head-name,
+.first-head-count{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.first-head-count,
+.second-head-count,
+.third-head-count{
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 15px;
+  margin-top: -15px;
+}
+
+.second-head-count{
+  margin-left: 50px;
+}
+
+.third-head-count{
+  margin-left: 30px;
+}
+
+.most-part{
+  display: flex;
+}
+
+.borders{
+  margin-bottom: 0px;
+}
+
+.border-first,
+.border-second{
+  width: 730px;
+  height: 40px;
+  border-top-width: 0.1px;
+  border-bottom-width: 0.1px;
+  margin-left: 50px;
+  margin-top: 50px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-style: dashed;
+  border-color: rgb(179, 176, 176);
+}
+
+.border-second{
+  margin-top: 40px;
+  border-bottom-color: rgb(52, 164, 255);
+  border-bottom-width: 1.6px;
+  border-bottom-style: solid;
+}
+
+.numbers{
+  margin-top: 20px;
+  margin-left: 20px;
+  justify-content: space-between;
+}
+
+.three,
+.two,
+.one,
+.zero{
+  margin-bottom: 23px;
+} 
+
+.dates{
+  display: flex;
+  width: 800px;
+  justify-content: space-evenly;
+  font-family: "Roboto", serif;
+  font-size: 13px;
+  color: rgb(96, 96, 96);
+  font-weight: bold;
+  margin-top: -30px;
+}
+
+.jan-1{
+  margin-left: 30px;
+  margin-right: 5px;
+}
+
+.jan-2,
+.jan-3,
+.jan-4,
+.jan-5,
+.jan-6{
+  margin-right: 5px;
+}
+
+.see_more{
+  width: 100px;
+  height: 35px;
+  margin-left: 30px;
+  margin-top: 18px;
+  border-radius: 20px;
+  font-family: "Roboto", serif;
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+.see_more:hover{
+  opacity: 0.7;
+}
+
+.see_more:active{
+  transform: scale(0.98);
+  transition-duration: 0.01s;
+}
+
+.main-right-part{
+  width: 280px;
+  height: 350px;
+  margin-top: 50px;
+  margin-left: 100px;
+  border: 1px;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: rgb(179, 176, 176);
+}
+
+.heading{
+  font-family: 'YouTube Sans', sans-serif;
+  margin-left: 20px;
+  font-size: 20px;
+  margin-top: 4px;
+  margin-bottom: -4px;
+}
+
+.live{
+  font-family: "Roboto", serif;
+  margin-left: 18px;
+  font-size: 14px;
+  color: rgb(96, 96, 96);
+}
+
+.dash{
+  margin-left: 20px;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: -1px;
+}
+
+.sub{
+  margin-top: -10px;
+  margin-left: 15px;
+  font-size: 16px;
+  color: rgb(96, 96, 96);
+}
+
+.livecount{
+  margin-left: 18px;
+  height: 35px;
+  width: 120px;
+  margin-top: -1px;
+  border-radius: 20px;
+  border: none;
+  font-family: "Roboto", serif;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.livecount:hover{
+  opacity: 0.7;
+}
+
+.livecount:active{
+  transform: scale(0.98);
+  transition-duration: 0.01s;
+}
+
+.views{
+  margin-top: -1px;
+  margin-left: 15px;
+  font-family: "Roboto", serif;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.last_view{
+  color: rgb(96, 96, 96);
+  margin-left: 15px;
+  font-family: "Roboto", serif;
+  font-size: 14px;
+  margin-top: -18px;
+}
+
+.more{
+  width: 100px;
+  height: 35px;
+  margin-left: 10px;
+  margin-top: 18px;
+  border-radius: 20px;
+  font-family: "Roboto", serif;
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+} 
+
+.more:hover{
+  opacity: 0.7;
+}
+
+.more:active{
+  transform: scale(0.98);
+  transition-duration: 0.01s;
+}
+
+a p{
+  color: black;
+}
+
+a{
+  text-decoration: none;
+}
